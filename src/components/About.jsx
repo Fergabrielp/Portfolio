@@ -27,7 +27,7 @@ const About = () => {
         What am I doing now?
       </h2>
 
-      <div className="container grid grid-rows-2 grid-cols-2 gap-4 mt-8">
+      <div className="sm:grid-cols-1 container grid grid-rows-2 grid-cols-2 gap-4 mt-8">
         <div className="rounded grid grid-cols-8 p-2 bg-black shadow-md shadow-pink-500/50">
           <div className="flex justify-start items-center">
             <HiBookOpen className="text-pink-500/50 text-4xl" />
