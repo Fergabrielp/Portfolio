@@ -5,7 +5,7 @@ import project2 from "../assets/img/Citas.png";
 import project3 from "../assets/img/imagenes.png";
 import project4 from "../assets/img/letras2.png";
 import project5 from "../assets/img/noticias.png";
-import project6 from "../assets/img/noticias.png";
+import project6 from "../assets/img/portfolio.png";
 
 const projects = [project1, project2, project3, project4, project5, project6];
 
