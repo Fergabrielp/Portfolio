@@ -4,6 +4,8 @@ import { GoLocation, GoMail } from "react-icons/go";
 import { RiPhoneLine } from "react-icons/ri";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
+import cv from "../assets/CV.pdf";
+
 const PersonalInfo = () => {
   return (
     <>
@@ -37,7 +39,9 @@ const PersonalInfo = () => {
 
         <div className="flex justify-center align-middle">
           <button className="mb-8 rounded-lg shadow-md shadow-gray-500 bg-pink-500/50 text-2xl py-2 px-4 font-bold">
-            Download Resume
+            <a href={cv} download={cv}>
+              Download Resume
+            </a>
           </button>
         </div>
         <div className="mb-2 p-2 text-center shadow-md shadow-pink-500/50 flex justify-around">
