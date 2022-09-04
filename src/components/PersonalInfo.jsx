@@ -4,7 +4,8 @@ import { GoLocation, GoMail } from "react-icons/go";
 import { RiPhoneLine } from "react-icons/ri";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-import cv from "../assets/CV.pdf";
+import cvSpanish from "../assets/CV-spanish.pdf";
+import cvEnglish from "../assets/CV-english.pdf";
 
 const PersonalInfo = () => {
   return (
@@ -37,13 +38,21 @@ const PersonalInfo = () => {
           </p>
         </div>
 
-        <div className="flex justify-center align-middle">
-          <button className="mb-8 rounded-lg shadow-md shadow-gray-500 bg-pink-500/50 text-2xl py-2 px-4 font-bold">
-            <a href={cv} download={cv}>
-              Download Resume
+        <div className="flex justify-evenly align-middle">
+          <button className="mb-8 rounded-lg shadow-md shadow-gray-500 bg-pink-500/50 text-2xl py-1 px-4 font-bold">
+            <a href={cvEnglish} download={cvEnglish}>
+              Resume <br />
+              <span className="text-xs">(English Version)</span>
+            </a>
+          </button>
+          <button className="mb-8 rounded-lg shadow-md shadow-gray-500 bg-pink-500/50 text-2xl py-1 px-4 font-bold">
+            <a href={cvSpanish} download={cvSpanish}>
+              Curriculum <br />
+              <span className="text-xs">(Versión en Español)</span>
             </a>
           </button>
         </div>
+
         <div className="mb-2 p-2 text-center shadow-md shadow-pink-500/50 flex justify-around">
           <a href="https://github.com/Fergabrielp" target="_blank">
             <AiFillGithub className="text-pink-500/50 text-2xl" />
