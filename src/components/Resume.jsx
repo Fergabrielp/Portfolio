@@ -19,10 +19,27 @@ const Resume = () => {
           <ul className="list-disc list-inside mb-2">
             <li className="mb-2">
               <span className="font-bold text-pink-500">
+                Change Analyst - DXC Technology
+              </span>
+              <br />
+              <h3>(Jul 2022 - Present)</h3>
+              <ul>
+                <li>
+                  - Analysis of technological infrastructure changes of United
+                  States clients.
+                </li>
+                <li>
+                  - Migration of information between different digital platforms
+                  (Swivel Process).
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span className="font-bold text-pink-500">
                 Coordinator - Instituto San Agustín S.R.L
               </span>
               <br />
-              <h3>(Feb 2017 - Present)</h3>
+              <h3>(Feb 2017 - Jul 2022)</h3>
               <ul>
                 <li>
                   - ISO 9001 Certification for the first time in a public
@@ -53,12 +70,12 @@ const Resume = () => {
           <ul className="list-disc list-inside">
             <li>
               <span className="font-bold text-pink-500">
-                Fullstack React/Node js - NUCBA
+                Fullstack Developer - NUCBA
               </span>
             </li>
             <li>
               <span className="font-bold text-pink-500">
-                Front end Academy React js - Alkemy
+                Skill up React JS - Alkemy academy
               </span>
             </li>
             <li>
@@ -93,12 +110,12 @@ const Resume = () => {
             </li>
             <li>
               <span className="font-bold text-pink-500">
-                Computer Science - Instituto Simon Bolivar
+                Software Development Techinician - Instituto Simon Bolivar
               </span>
             </li>
             <li>
               <span className="font-bold text-pink-500">
-                English C1 Advanced - Facultad de Lenguas
+                English B2 Upper intermediate - Facultad de Lenguas
               </span>
             </li>
           </ul>

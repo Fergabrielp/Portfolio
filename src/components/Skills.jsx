@@ -100,6 +100,12 @@ const Skills = () => {
             whileHover={{ scale: 1.1 }}
             className="rounded-md bg-pink-500/50 text-center font-bold shadow-sm shadow-white "
           >
+            Responsive Design
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            className="rounded-md bg-pink-500/50 text-center font-bold shadow-sm shadow-white "
+          >
             Styled Components
           </motion.div>
           <motion.div

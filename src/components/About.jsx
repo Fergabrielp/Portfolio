@@ -33,8 +33,8 @@ const About = () => {
             <HiBookOpen className="text-pink-500/50 text-4xl" />
           </div>
           <div className="flex justify-start items-center col-span-7 text-justify font-semibold p-2">
-            • NUCBA - Fullstack React/Node js <br />• Argentina Programa -
-            Fullstack Angular/Java
+            NUCBA - Fullstack Developer <br />• Front End: HTML, CSS,
+            Javascript, React <br />• Back End: Node, Express, Mongo DB
           </div>
         </div>
         <div className="rounded grid grid-cols-8 p-2 bg-black shadow-md shadow-pink-500/50">
@@ -42,11 +42,16 @@ const About = () => {
             <MdOutlineWork className="text-pink-500/50 text-4xl" />
           </div>
           <div className="col-span-7 font-semibold">
-            Coordinator at Instituto San Agustin SRL :
+            Change Analyst at DXC Technology:
             <ul>
-              <li>• ISO 9001 Standards Certification implementation</li>
-              <li>• Responsible for home medical delivery system</li>
-              <li>• Reports to Management</li>
+              <li>
+                • Analysis of technological infrastructure changes of United
+                States clients.
+              </li>
+              <li>
+                • Migration of information between different digital platforms
+                (Swivel Process).
+              </li>
             </ul>
           </div>
         </div>
@@ -55,7 +60,7 @@ const About = () => {
             <FaPencilAlt className="text-pink-500/50 text-4xl" />
           </div>
           <div className="flex justify-start items-center col-span-7 text-justify font-semibold">
-            • English level: C1 Advanced
+            English level: B2 - Upper Intermediate
           </div>
         </div>
         <div className="rounded grid grid-cols-8 p-2 bg-black shadow-md shadow-pink-500/50">
